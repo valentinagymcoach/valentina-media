@@ -1,0 +1,4 @@
+# Accounts for Valentina's daily comment round (Adrian comments manually).
+# One Instagram handle per line, without @. Best: fitness creators with 1k-50k followers
+# who post regularly (gym training, technique tips, women's strength training).
+# Lines starting with # are ignored. Ask Claude to add or remove accounts.
