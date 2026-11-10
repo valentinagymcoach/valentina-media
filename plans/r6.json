@@ -1,0 +1,134 @@
+{
+ "seed": 106,
+ "drop": 2,
+ "segments": [
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_kabelzug_fly_a_00001_.mp4",
+   "beats": 8,
+   "start": 1.0
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_hook_zeigen_00001_.mp4",
+   "beats": 4,
+   "start": 0.5,
+   "whip_in": true
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_latzug_a_00001_.mp4",
+   "beats": 10,
+   "start": 0.5,
+   "punch": true
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_rudern_a_00001_.mp4",
+   "beats": 10,
+   "start": 0.3,
+   "whip_in": true
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_latzug_a_00001_.mp4",
+   "beats": 8,
+   "start": 5.0,
+   "whip_in": true
+  }
+ ],
+ "voices": [
+  {
+   "file": "/home/claude/voice2_in/month2/vo2_r6_1.wav",
+   "at": 0.15,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/work/vsplit/r6_2_0.wav",
+   "at": 3.5,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/work/vsplit/r6_2_1.wav",
+   "at": 5.2,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/work/vsplit/r6_2_2.wav",
+   "at": 9.4,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/voice2_in/month2/vo2_r6_3.wav",
+   "at": 10.55,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/voice2_in/month2/vo2_r6_4.wav",
+   "at": 13.65,
+   "gain": 1.3
+  }
+ ],
+ "texts": [
+  {
+   "t0": 0,
+   "t1": 1.75,
+   "lines": [
+    "10 sets of chest."
+   ]
+  },
+  {
+   "t0": 1.75,
+   "t1": 3.375,
+   "lines": [
+    "0 for your back?"
+   ],
+   "style": "bold",
+   "y": 0.42
+  },
+  {
+   "t0": 3.4,
+   "t1": 5.05,
+   "lines": [
+    "I see you."
+   ],
+   "style": "bold",
+   "y": 0.42
+  },
+  {
+   "t0": 5.1,
+   "t1": 9.25,
+   "lines": [
+    "Lat pulldowns",
+    "Pull to the upper chest"
+   ]
+  },
+  {
+   "t0": 9.3,
+   "t1": 10.5,
+   "lines": [
+    "Cable rows"
+   ]
+  },
+  {
+   "t0": 10.55,
+   "t1": 13.45,
+   "lines": [
+    "Pull with your elbows,",
+    "not your hands"
+   ]
+  },
+  {
+   "t0": 13.5,
+   "t1": 15.4,
+   "lines": [
+    "Strong back.",
+    "Better posture."
+   ]
+  },
+  {
+   "t0": 15.4,
+   "t1": 16.875,
+   "lines": [
+    "Follow for more"
+   ],
+   "style": "bold",
+   "y": 0.42
+  }
+ ]
+}

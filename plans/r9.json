@@ -1,0 +1,142 @@
+{
+ "seed": 109,
+ "drop": 2,
+ "segments": [
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_hook_walk_00001_.mp4",
+   "beats": 8,
+   "start": 0.0
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_latzug_a_00001_.mp4",
+   "beats": 8,
+   "start": 2.0,
+   "whip_in": true
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_schulterdruecken_a_00001_.mp4",
+   "beats": 4,
+   "start": 2.5,
+   "whip_in": true
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_kniebeuge_a_00001_.mp4",
+   "beats": 4,
+   "start": 1.0,
+   "whip_in": true
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_liegestuetz_a_00001_.mp4",
+   "beats": 4,
+   "start": 3.0,
+   "whip_in": true
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_kabelzug_fly_a_00001_.mp4",
+   "beats": 6,
+   "start": 5.5,
+   "punch": true
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_hook_zeigen_00001_.mp4",
+   "beats": 7,
+   "start": 1.5,
+   "whip_in": true
+  }
+ ],
+ "voices": [
+  {
+   "file": "/home/claude/voice2_in/month2/vo2_r9_1.wav",
+   "at": 0.15,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/voice2_in/month2/vo2_r9_2.wav",
+   "at": 3.55,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/voice2_in/month2/vo2_r9_3.wav",
+   "at": 6.9,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/voice2_in/month2/vo2_r9_4.wav",
+   "at": 11.95,
+   "gain": 1.3
+  }
+ ],
+ "texts": [
+  {
+   "t0": 0,
+   "t1": 2.35,
+   "lines": [
+    "Week 2 is where",
+    "most people quit."
+   ]
+  },
+  {
+   "t0": 2.35,
+   "t1": 3.375,
+   "lines": [
+    "Not you."
+   ],
+   "style": "bold",
+   "y": 0.42
+  },
+  {
+   "t0": 3.4,
+   "t1": 5.0,
+   "lines": [
+    "The soreness fades."
+   ]
+  },
+  {
+   "t0": 5.0,
+   "t1": 6.75,
+   "lines": [
+    "The habit stays."
+   ]
+  },
+  {
+   "t0": 6.8,
+   "t1": 8.15,
+   "lines": [
+    "Show up tired."
+   ]
+  },
+  {
+   "t0": 8.15,
+   "t1": 9.7,
+   "lines": [
+    "Show up slow."
+   ]
+  },
+  {
+   "t0": 9.7,
+   "t1": 11.8,
+   "lines": [
+    "Just show up."
+   ],
+   "style": "bold",
+   "y": 0.42
+  },
+  {
+   "t0": 11.85,
+   "t1": 14.1,
+   "lines": [
+    "Week 3 is waiting."
+   ]
+  },
+  {
+   "t0": 14.1,
+   "t1": 17.3,
+   "lines": [
+    "Follow.",
+    "See you there."
+   ],
+   "style": "bold",
+   "y": 0.38
+  }
+ ]
+}

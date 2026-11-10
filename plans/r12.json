@@ -1,0 +1,140 @@
+{
+ "seed": 112,
+ "drop": 1,
+ "segments": [
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_hook_walk_00001_.mp4",
+   "beats": 4,
+   "start": 0.5
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_latzug_a_00001_.mp4",
+   "beats": 2,
+   "start": 3.0,
+   "flash": true
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_kniebeuge_a_00002_.mp4",
+   "beats": 2,
+   "start": 4.0,
+   "flash": false
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_schulterdruecken_a_00001_.mp4",
+   "beats": 2,
+   "start": 7.0,
+   "flash": false
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_ausfallschritte_a_00001_.mp4",
+   "beats": 2,
+   "start": 4.0,
+   "flash": false
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_liegestuetz_a_00001_.mp4",
+   "beats": 2,
+   "start": 7.0,
+   "flash": false
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_kabelzug_fly_a_00001_.mp4",
+   "beats": 2,
+   "start": 7.5,
+   "flash": false
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_ropes_a_00001_.mp4",
+   "beats": 2,
+   "start": 8.0,
+   "flash": false
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_rudern_a_00001_.mp4",
+   "beats": 2,
+   "start": 2.0,
+   "flash": false
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_seitheben_a_00001_.mp4",
+   "beats": 2,
+   "start": 2.0,
+   "flash": false
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_trizeps_a_00001_.mp4",
+   "beats": 2,
+   "start": 2.0,
+   "flash": false
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_kniebeuge_a_00001_.mp4",
+   "beats": 2,
+   "start": 3.0,
+   "flash": false
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_bankdruecken_a_00001_.mp4",
+   "beats": 2,
+   "start": 1.0,
+   "flash": false
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_hook_zeigen_00001_.mp4",
+   "beats": 6,
+   "start": 0.5,
+   "punch": true
+  }
+ ],
+ "voices": [
+  {
+   "file": "/home/claude/work/vsplit/r12_1_0.wav",
+   "at": 0.2,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/work/vsplit/r12_1_1.wav",
+   "at": 5.9,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/work/vsplit/r12_1_2.wav",
+   "at": 11.6,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/work/vsplit/r12_1_3.wav",
+   "at": 12.25,
+   "gain": 1.3
+  }
+ ],
+ "texts": [
+  {
+   "t0": 0,
+   "t1": 1.69,
+   "lines": [
+    "30 days."
+   ],
+   "style": "bold",
+   "y": 0.42
+  },
+  {
+   "t0": 5.8,
+   "t1": 8.0,
+   "lines": [
+    "Same rules",
+    "next month."
+   ]
+  },
+  {
+   "t0": 11.5,
+   "t1": 14.34,
+   "lines": [
+    "Follow.",
+    "We keep going."
+   ],
+   "style": "bold",
+   "y": 0.38
+  }
+ ]
+}
