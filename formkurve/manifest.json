@@ -1,0 +1,348 @@
+{
+ "version": 1,
+ "note": "AI-generated demo clips (Valentina). Loop seamlessly, no audio, no text.",
+ "exercises": [
+  {
+   "id": "goblet_squat",
+   "de": "Goblet Squat",
+   "en": "Goblet squat",
+   "muscles": [
+    "Quadrizeps",
+    "Gesäß",
+    "Rumpf"
+   ],
+   "cues": [
+    "Kurzhantel mit beiden Händen senkrecht vor der Brust halten",
+    "Hüfte zwischen die Fersen absenken, Knie zeigen Richtung Zehen",
+    "Brust bleibt aufrecht, Fersen bleiben am Boden"
+   ],
+   "view": "front",
+   "video_mp4": "goblet_squat.mp4",
+   "video_webm": "goblet_squat.webm",
+   "poster": "goblet_squat.jpg",
+   "duration_s": 4.75,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  },
+  {
+   "id": "dumbbell_curl",
+   "de": "Kurzhantel-Bizepscurl",
+   "en": "Dumbbell biceps curl",
+   "muscles": [
+    "Bizeps",
+    "Unterarme"
+   ],
+   "cues": [
+    "Ellbogen bleiben seitlich am Körper",
+    "Hanteln bis zur Schulter beugen, oben kurz anspannen",
+    "Langsam und ganz absenken, kein Schwung aus dem Oberkörper"
+   ],
+   "view": "front",
+   "video_mp4": "dumbbell_curl.mp4",
+   "video_webm": "dumbbell_curl.webm",
+   "poster": "dumbbell_curl.jpg",
+   "duration_s": 8.25,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  },
+  {
+   "id": "romanian_deadlift",
+   "de": "Rumänisches Kreuzheben",
+   "en": "Romanian deadlift",
+   "muscles": [
+    "Beinbeuger",
+    "Gesäß",
+    "unterer Rücken"
+   ],
+   "cues": [
+    "Knie leicht gebeugt, Hüfte nach hinten schieben",
+    "Stange nah an den Oberschenkeln führen, Rücken bleibt gerade",
+    "Oben Gesäß anspannen, nicht ins Hohlkreuz lehnen"
+   ],
+   "view": "side_45",
+   "video_mp4": "romanian_deadlift.mp4",
+   "video_webm": "romanian_deadlift.webm",
+   "poster": "romanian_deadlift.jpg",
+   "duration_s": 3.5,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  },
+  {
+   "id": "kettlebell_swing",
+   "de": "Kettlebell Swing",
+   "en": "Kettlebell swing",
+   "muscles": [
+    "Gesäß",
+    "Beinbeuger",
+    "Rumpf"
+   ],
+   "cues": [
+    "Kettlebell mit beiden Händen zwischen den Beinen nach hinten führen",
+    "Kraft kommt aus der Hüftstreckung, nicht aus den Armen",
+    "Oben aufrecht stehen, Arme lang, Rücken gerade"
+   ],
+   "view": "side",
+   "video_mp4": "kettlebell_swing.mp4",
+   "video_webm": "kettlebell_swing.webm",
+   "poster": "kettlebell_swing.jpg",
+   "duration_s": 7.54,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  },
+  {
+   "id": "pull_up",
+   "de": "Klimmzug",
+   "en": "Pull-up",
+   "muscles": [
+    "Latissimus",
+    "Bizeps",
+    "oberer Rücken"
+   ],
+   "cues": [
+    "Aus dem ganzen Hang starten, Schultern aktiv",
+    "Ellbogen nach unten ziehen, bis das Kinn über der Stange ist",
+    "Kontrolliert absenken, kein Schwingen"
+   ],
+   "view": "front",
+   "video_mp4": "pull_up.mp4",
+   "video_webm": "pull_up.webm",
+   "poster": "pull_up.jpg",
+   "duration_s": 4.0,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  },
+  {
+   "id": "lat_pulldown",
+   "de": "Latziehen",
+   "en": "Lat pulldown",
+   "muscles": [
+    "Latissimus",
+    "Bizeps",
+    "oberer Rücken"
+   ],
+   "cues": [
+    "Oberkörper leicht zurückgelehnt und stabil",
+    "Stange zur oberen Brust ziehen, Ellbogen nach unten",
+    "Langsam nach oben führen, Arme fast ganz strecken"
+   ],
+   "view": "front_45",
+   "video_mp4": "lat_pulldown.mp4",
+   "video_webm": "lat_pulldown.webm",
+   "poster": "lat_pulldown.jpg",
+   "duration_s": 9.75,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  },
+  {
+   "id": "back_squat",
+   "de": "Kniebeuge mit Langhantel",
+   "en": "Barbell back squat",
+   "muscles": [
+    "Quadrizeps",
+    "Gesäß",
+    "Rumpf"
+   ],
+   "cues": [
+    "Füsse etwa schulterbreit, Knie folgen den Zehen",
+    "Ganzer Fuss bleibt am Boden",
+    "Rumpf fest, Brust bleibt oben"
+   ],
+   "view": "front",
+   "video_mp4": "back_squat.mp4",
+   "video_webm": "back_squat.webm",
+   "poster": "back_squat.jpg",
+   "duration_s": 9.75,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  },
+  {
+   "id": "dumbbell_shoulder_press",
+   "de": "Kurzhantel-Schulterdrücken",
+   "en": "Seated dumbbell shoulder press",
+   "muscles": [
+    "Schultern",
+    "Trizeps"
+   ],
+   "cues": [
+    "Rücken an der Lehne, Rumpf fest",
+    "Hanteln über den Kopf drücken, ohne die Ellbogen ganz durchzudrücken",
+    "Kontrolliert bis auf Ohrhöhe absenken"
+   ],
+   "view": "front",
+   "video_mp4": "dumbbell_shoulder_press.mp4",
+   "video_webm": "dumbbell_shoulder_press.webm",
+   "poster": "dumbbell_shoulder_press.jpg",
+   "duration_s": 9.75,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  },
+  {
+   "id": "dumbbell_lunge",
+   "de": "Ausfallschritt mit Kurzhanteln",
+   "en": "Dumbbell lunge",
+   "muscles": [
+    "Quadrizeps",
+    "Gesäß"
+   ],
+   "cues": [
+    "Grosser Schritt, Oberkörper bleibt aufrecht",
+    "Vorderes Knie über dem Fuss, nicht nach innen",
+    "Über die Ferse des vorderen Fusses hochdrücken"
+   ],
+   "view": "front",
+   "video_mp4": "dumbbell_lunge.mp4",
+   "video_webm": "dumbbell_lunge.webm",
+   "poster": "dumbbell_lunge.jpg",
+   "duration_s": 9.75,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  },
+  {
+   "id": "push_up",
+   "de": "Liegestütz",
+   "en": "Push-up",
+   "muscles": [
+    "Brust",
+    "Trizeps",
+    "Schultern"
+   ],
+   "cues": [
+    "Hände etwas breiter als schulterbreit",
+    "Körper bildet eine Linie, Bauch und Gesäß fest",
+    "Brust kontrolliert Richtung Boden, dann kräftig wegdrücken"
+   ],
+   "view": "side_45",
+   "video_mp4": "push_up.mp4",
+   "video_webm": "push_up.webm",
+   "poster": "push_up.jpg",
+   "duration_s": 9.75,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  },
+  {
+   "id": "cable_fly",
+   "de": "Kabelzug-Fly",
+   "en": "Cable fly",
+   "muscles": [
+    "Brust",
+    "vordere Schulter"
+   ],
+   "cues": [
+    "Ellbogen leicht gebeugt und fixiert",
+    "Griffe in einem Bogen vor der Brust zusammenführen",
+    "Langsam öffnen, bis ein Zug in der Brust spürbar ist"
+   ],
+   "view": "front",
+   "video_mp4": "cable_fly.mp4",
+   "video_webm": "cable_fly.webm",
+   "poster": "cable_fly.jpg",
+   "duration_s": 9.75,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  },
+  {
+   "id": "lateral_raise",
+   "de": "Seitheben",
+   "en": "Lateral raise",
+   "muscles": [
+    "seitliche Schulter"
+   ],
+   "cues": [
+    "Leichte Hanteln, Ellbogen minimal gebeugt",
+    "Arme seitlich bis Schulterhöhe heben",
+    "Kein Schwung, langsam absenken"
+   ],
+   "view": "front",
+   "video_mp4": "lateral_raise.mp4",
+   "video_webm": "lateral_raise.webm",
+   "poster": "lateral_raise.jpg",
+   "duration_s": 3.33,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  },
+  {
+   "id": "triceps_pushdown",
+   "de": "Trizepsdrücken am Kabel",
+   "en": "Cable triceps pushdown",
+   "muscles": [
+    "Trizeps"
+   ],
+   "cues": [
+    "Ellbogen bleiben seitlich am Körper",
+    "Griff nach unten drücken, bis die Arme gestreckt sind",
+    "Kontrolliert zurück bis knapp über 90 Grad"
+   ],
+   "view": "side_45",
+   "video_mp4": "triceps_pushdown.mp4",
+   "video_webm": "triceps_pushdown.webm",
+   "poster": "triceps_pushdown.jpg",
+   "duration_s": 5.0,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  },
+  {
+   "id": "seated_cable_row",
+   "de": "Rudern am Kabel (sitzend)",
+   "en": "Seated cable row",
+   "muscles": [
+    "oberer Rücken",
+    "Latissimus",
+    "Bizeps"
+   ],
+   "cues": [
+    "Oberkörper aufrecht und ruhig",
+    "Griff zum Bauch ziehen, Schulterblätter zusammen",
+    "Arme langsam nach vorne strecken"
+   ],
+   "view": "side",
+   "video_mp4": "seated_cable_row.mp4",
+   "video_webm": "seated_cable_row.webm",
+   "poster": "seated_cable_row.jpg",
+   "duration_s": 4.75,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  }
+ ]
+}
