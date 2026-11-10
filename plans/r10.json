@@ -1,0 +1,175 @@
+{
+ "seed": 110,
+ "drop": 2,
+ "segments": [
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_hook_zeigen_00001_.mp4",
+   "beats": 8,
+   "start": 0.0
+  },
+  {
+   "clip": "/home/claude/gen3_in/clips/v3_rdl2_120.mp4",
+   "beats": 7,
+   "start": 0.5,
+   "whip_in": true
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_ausfallschritte_a_00001_.mp4",
+   "beats": 5,
+   "start": 5.0,
+   "whip_in": true
+  },
+  {
+   "clip": "/home/claude/gen3_in/clips/v3_goblet_435.mp4",
+   "beats": 6,
+   "start": 6.0,
+   "whip_in": true
+  },
+  {
+   "clip": "/home/claude/gen3_in/clips/v3_kettlebell2_381.mp4",
+   "beats": 6,
+   "start": 2.0,
+   "whip_in": true
+  },
+  {
+   "clip": "/home/claude/gen3_in/clips/v3_rdl2_120.mp4",
+   "beats": 8,
+   "start": 6.5,
+   "punch": true
+  },
+  {
+   "clip": "/home/claude/gen3_in/clips/v3_kettlebell2_381.mp4",
+   "beats": 4,
+   "start": 7.0,
+   "whip_in": true
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_hook_walk_00001_.mp4",
+   "beats": 5,
+   "start": 0.5,
+   "whip_in": true
+  }
+ ],
+ "voices": [
+  {
+   "file": "/home/claude/voice2_in/month2/vo2_r10_1.wav",
+   "at": 0.1,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/work/vsplit/r10_2_0.wav",
+   "at": 3.5,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/work/vsplit/r10_2_1.wav",
+   "at": 6.45,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/work/vsplit/r10_2_2.wav",
+   "at": 8.55,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/work/vsplit/r10_2_4.wav",
+   "at": 11.1,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/voice2_in/month2/vo2_r10_3.wav",
+   "at": 13.6,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/voice2_in/month2/vo2_r10_4.wav",
+   "at": 17.0,
+   "gain": 1.3
+  }
+ ],
+ "texts": [
+  {
+   "t0": 0,
+   "t1": 2.25,
+   "lines": [
+    "Glutes need",
+    "heavy hinges."
+   ]
+  },
+  {
+   "t0": 2.25,
+   "t1": 3.375,
+   "lines": [
+    "Not kickbacks."
+   ],
+   "style": "bold",
+   "y": 0.42
+  },
+  {
+   "t0": 3.4,
+   "t1": 6.3,
+   "lines": [
+    "1. Romanian deadlifts"
+   ]
+  },
+  {
+   "t0": 6.35,
+   "t1": 8.4,
+   "lines": [
+    "2. Lunges"
+   ]
+  },
+  {
+   "t0": 8.45,
+   "t1": 10.95,
+   "lines": [
+    "3. Goblet squats"
+   ]
+  },
+  {
+   "t0": 11.0,
+   "t1": 13.45,
+   "lines": [
+    "4. Kettlebell swings"
+   ]
+  },
+  {
+   "t0": 13.5,
+   "t1": 14.6,
+   "lines": [
+    "Hips back."
+   ]
+  },
+  {
+   "t0": 14.6,
+   "t1": 15.6,
+   "lines": [
+    "Flat back."
+   ]
+  },
+  {
+   "t0": 15.6,
+   "t1": 16.85,
+   "lines": [
+    "Squeeze at the top."
+   ]
+  },
+  {
+   "t0": 16.9,
+   "t1": 19.5,
+   "lines": [
+    "Heavy hinges,",
+    "every week."
+   ]
+  },
+  {
+   "t0": 19.5,
+   "t1": 20.67,
+   "lines": [
+    "Vamos!"
+   ],
+   "style": "bold",
+   "y": 0.42
+  }
+ ]
+}
