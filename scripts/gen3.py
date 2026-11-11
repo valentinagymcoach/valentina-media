@@ -235,6 +235,10 @@ def cmd_pack():
             z.write(f"{MP4}/{fn}", f"clips/{fn}")
         for n, f in photos.items():
             z.write(f, f"photos/{n}.png")
+        vd = f"{OUT}/voice3"
+        if os.path.isdir(vd):
+            for fn in sorted(os.listdir(vd)):
+                z.write(f"{vd}/{fn}", f"voice/{fn}")
     log("PACK_DONE", dst, os.path.getsize(dst) // 1e6, "MB")
 
 
