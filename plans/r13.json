@@ -1,0 +1,140 @@
+{
+ "seed": 113,
+ "drop": 2,
+ "segments": [
+  {
+   "clip": "/home/claude/gen4_in/clips/v3_stepup2_115.mp4",
+   "beats": 8,
+   "start": 3.25
+  },
+  {
+   "clip": "/home/claude/gen4_in/clips/v3_stepup_387.mp4",
+   "beats": 7,
+   "start": 5.0,
+   "whip_in": true
+  },
+  {
+   "clip": "/home/claude/gen4_in/clips/v3_stepup2_115.mp4",
+   "beats": 8,
+   "start": 6.5,
+   "whip_in": true
+  },
+  {
+   "clip": "/home/claude/gen4_in/clips/v3_stepup_387.mp4",
+   "beats": 4,
+   "start": 8.25,
+   "whip_in": true
+  },
+  {
+   "clip": "/home/claude/gen4_in/clips/v3_stepup2_115.mp4",
+   "beats": 5,
+   "start": 4.75,
+   "punch": true
+  },
+  {
+   "clip": "/home/claude/gym_in/valentina_gym_clips/v_hook_zeigen_00001_.mp4",
+   "beats": 10,
+   "start": 0.5,
+   "whip_in": true
+  }
+ ],
+ "voices": [
+  {
+   "file": "/home/claude/gen4_in/voice/vo_v4a_1_s2.wav",
+   "at": 0.1,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/gen4_in/voice/vo_v4a_2_s7.wav",
+   "at": 3.5,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/gen4_in/voice/vo_v4a_3_s2.wav",
+   "at": 6.45,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/gen4_in/voice/vo_v4a_4_s2.wav",
+   "at": 9.85,
+   "gain": 1.3
+  },
+  {
+   "file": "/home/claude/gen4_in/voice/vo_v4a_5_s2.wav",
+   "at": 13.45,
+   "gain": 1.3
+  }
+ ],
+ "texts": [
+  {
+   "t0": 0,
+   "t1": 3.375,
+   "lines": [
+    "Step-ups:",
+    "the most underrated",
+    "leg exercise."
+   ]
+  },
+  {
+   "t0": 3.4,
+   "t1": 6.3,
+   "lines": [
+    "1. Whole foot on the bench"
+   ]
+  },
+  {
+   "t0": 6.35,
+   "t1": 7.9,
+   "lines": [
+    "2. Drive through the heel"
+   ]
+  },
+  {
+   "t0": 7.9,
+   "t1": 9.7,
+   "lines": [
+    "3. Don't push off",
+    "the back leg"
+   ]
+  },
+  {
+   "t0": 9.75,
+   "t1": 11.9,
+   "lines": [
+    "4. Stand tall at the top"
+   ]
+  },
+  {
+   "t0": 11.9,
+   "t1": 13.45,
+   "lines": [
+    "5. Control the way down"
+   ]
+  },
+  {
+   "t0": 13.5,
+   "t1": 15.4,
+   "lines": [
+    "10 each side."
+   ]
+  },
+  {
+   "t0": 15.4,
+   "t1": 16.6,
+   "lines": [
+    "Save it."
+   ],
+   "style": "bold",
+   "y": 0.42
+  },
+  {
+   "t0": 16.6,
+   "t1": 17.72,
+   "lines": [
+    "Vamos!"
+   ],
+   "style": "bold",
+   "y": 0.42
+  }
+ ]
+}
