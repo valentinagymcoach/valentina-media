@@ -1,6 +1,6 @@
 # Formkurve – Übungsvideos (Valentina, KI-generiert)
 
-14 Übungen als nahtlose Endlosschleifen, ohne Ton und ohne Text.
+16 Übungen als nahtlose Endlosschleifen, ohne Ton und ohne Text.
 
 - Format: 720×1248 (Hochformat, ca. 9:16), 24 fps, 3–10 s
 - Dateien pro Übung: `<id>.mp4` (H.264, für alle Geräte), `<id>.webm` (VP9, kleiner), `<id>.jpg` (Vorschaubild)

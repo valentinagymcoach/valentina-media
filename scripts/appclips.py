@@ -5,6 +5,8 @@ import json, os, subprocess, sys
 OUT = sys.argv[1]
 os.makedirs(OUT, exist_ok=True)
 NEW = "/home/claude/gen3_in/clips/v3_%s.mp4"
+NEW4 = "/home/claude/gen4_in/clips/v3_%s.mp4"
+ONLY = set(sys.argv[2].split(",")) if len(sys.argv) > 2 else None
 OLD = "/home/claude/gym_in/valentina_gym_clips/v_%s_00001_.mp4"
 X = 0.3  # loop crossfade
 
@@ -79,6 +81,16 @@ EX = [
       cues=["Oberkörper aufrecht und ruhig",
             "Griff zum Bauch ziehen, Schulterblätter zusammen",
             "Arme langsam nach vorne strecken"]),
+ dict(id="dumbbell_bench_press", src=NEW4 % "dbbench_818", t0=0.0, t1=4.5, poster=2.0, view="side_45",
+      de="Kurzhantel-Bankdrücken", en="Dumbbell bench press", muscles=["Brust", "Trizeps", "vordere Schulter"],
+      cues=["Schulterblätter zusammen, Füsse fest am Boden",
+            "Hanteln kontrolliert seitlich zur Brust senken, Ellbogen etwa 45 Grad",
+            "Über der Brust nach oben drücken, ohne die Hanteln aneinanderzuschlagen"]),
+ dict(id="step_up", src=NEW4 % "stepup2_115", t0=4.75, t1=10.0, poster=6.0, view="side",
+      de="Step-up auf die Bank", en="Dumbbell step-up", muscles=["Quadrizeps", "Gesäß"],
+      cues=["Ganzer Fuss auf der Bank",
+            "Über die Ferse hochdrücken, nicht mit dem hinteren Bein abstossen",
+            "Oben aufrecht stehen, dann kontrolliert absteigen"]),
 ]
 VF = ("minterpolate=fps=48:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,fps=24,"
       "scale=720:1248:flags=lanczos,unsharp=5:5:0.4:5:5:0.0,setsar=1")
@@ -90,6 +102,8 @@ def run(c):
 
 man = []
 for e in EX:
+    if ONLY and e["id"] not in ONLY:
+        continue
     src = e["src"].replace("kniebeuge_a_00001_", "kniebeuge_a_00002_") if e["id"] == "back_squat" else e["src"]
     D = e["t1"] - e["t0"]
     tmp = f"/tmp/app_{e['id']}.mp4"
@@ -112,5 +126,7 @@ for e in EX:
                 "duration_s": round(dur, 2), "width": 720, "height": 1248, "fps": 24, "loop": True,
                 "ai_generated": True})
     print(e["id"], round(dur, 2))
+old = json.load(open(f"{OUT}/manifest.json"))["exercises"] if ONLY and os.path.exists(f"{OUT}/manifest.json") else []
+man = [m for m in old if m["id"] not in {x["id"] for x in man}] + man
 json.dump({"version": 1, "note": "AI-generated demo clips (Valentina). Loop seamlessly, no audio, no text.",
            "exercises": man}, open(f"{OUT}/manifest.json", "w"), ensure_ascii=False, indent=1)

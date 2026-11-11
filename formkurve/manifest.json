@@ -343,6 +343,55 @@
    "fps": 24,
    "loop": true,
    "ai_generated": true
+  },
+  {
+   "id": "dumbbell_bench_press",
+   "de": "Kurzhantel-Bankdrücken",
+   "en": "Dumbbell bench press",
+   "muscles": [
+    "Brust",
+    "Trizeps",
+    "vordere Schulter"
+   ],
+   "cues": [
+    "Schulterblätter zusammen, Füsse fest am Boden",
+    "Hanteln kontrolliert seitlich zur Brust senken, Ellbogen etwa 45 Grad",
+    "Über der Brust nach oben drücken, ohne die Hanteln aneinanderzuschlagen"
+   ],
+   "view": "side_45",
+   "video_mp4": "dumbbell_bench_press.mp4",
+   "video_webm": "dumbbell_bench_press.webm",
+   "poster": "dumbbell_bench_press.jpg",
+   "duration_s": 4.25,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  },
+  {
+   "id": "step_up",
+   "de": "Step-up auf die Bank",
+   "en": "Dumbbell step-up",
+   "muscles": [
+    "Quadrizeps",
+    "Gesäß"
+   ],
+   "cues": [
+    "Ganzer Fuss auf der Bank",
+    "Über die Ferse hochdrücken, nicht mit dem hinteren Bein abstossen",
+    "Oben aufrecht stehen, dann kontrolliert absteigen"
+   ],
+   "view": "side",
+   "video_mp4": "step_up.mp4",
+   "video_webm": "step_up.webm",
+   "poster": "step_up.jpg",
+   "duration_s": 5.0,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
   }
  ]
 }
