@@ -16,7 +16,7 @@ log "System-Pakete"
 apt-get update -qq && apt-get install -y -qq zstd curl git ffmpeg python3-venv lsof openssl >/dev/null 2>&1
 
 log "Skripte holen"
-for f in start.sh stop.sh status.sh tools_server.py run_agent.py agent.sh download_models.sh; do wget -q -O $A/$f $R/runpod/$f; done
+for f in start.sh stop.sh status.sh tools_server.py qwen_chat.py run_agent.py agent.sh download_models.sh; do wget -q -O $A/$f $R/runpod/$f; done
 wget -q -O $A/tasks/beispiel.txt $R/runpod/beispiel.txt
 chmod +x $A/*.sh
 
