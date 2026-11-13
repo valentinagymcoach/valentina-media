@@ -127,17 +127,39 @@ _tts = {}
 _tts_lock = threading.Lock()
 
 
+def _free_comfy_vram():
+    """ComfyUI-Modelle aus dem VRAM nehmen (werden beim nächsten Bild/Video neu geladen)."""
+    try:
+        r = urllib.request.Request(f"{COMFY}/free", data=json.dumps({"unload_models": True, "free_memory": True}).encode(),
+                                   headers={"Content-Type": "application/json"})
+        urllib.request.urlopen(r, timeout=30).read()
+        time.sleep(3)
+    except Exception:  # noqa: BLE001
+        pass
+
+
 def _load_tts():
-    if _tts:
+    if "model" in _tts:
         return _tts
+    _free_comfy_vram()
     import torch
     from transformers import AutoModelForCausalLM, AutoTokenizer
     from snac import SNAC
-    _tts["torch"] = torch
-    _tts["tok"] = AutoTokenizer.from_pretrained("maya-research/maya1")
-    _tts["model"] = AutoModelForCausalLM.from_pretrained("maya-research/maya1", torch_dtype=torch.bfloat16, device_map="cuda").eval()
-    _tts["snac"] = SNAC.from_pretrained("hubertsiuzdak/snac_24khz").eval().to("cuda")
+    d = {"torch": torch,
+         "tok": AutoTokenizer.from_pretrained("maya-research/maya1"),
+         "model": AutoModelForCausalLM.from_pretrained("maya-research/maya1", torch_dtype=torch.bfloat16, device_map="cuda").eval(),
+         "snac": SNAC.from_pretrained("hubertsiuzdak/snac_24khz").eval().to("cuda")}
+    _tts.update(d)
     return _tts
+
+
+def _unload_tts():
+    """Maya wieder freigeben, damit Video (Wan 14B) genug VRAM hat."""
+    if "model" in _tts:
+        torch = _tts["torch"]
+        _tts.clear()
+        import gc
+        gc.collect(); torch.cuda.empty_cache()
 
 
 def _synth(desc, text, seed):
@@ -213,6 +235,8 @@ def _free_llm_vram(delay=20):
 def _video_job(jid, r: VideoReq):
     try:
         _free_llm_vram()
+        with _tts_lock:
+            _unload_tts()
         q = urllib.parse.parse_qs(urllib.parse.urlparse(r.image_url).query)
         image = f"{q.get('subfolder', [''])[0]}/{q['filename'][0]}".lstrip("/") + " [output]"
         pid = _queue(wf_video(image, "Realistic video, static camera on a tripod, natural motion, real physics. " + r.motion,
