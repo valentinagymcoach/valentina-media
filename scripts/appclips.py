@@ -102,6 +102,11 @@ EX = [
       cues=["Breiter Stand, Zehen etwa 45 Grad nach aussen",
             "Kurzhantel mit beiden Händen zwischen den Beinen halten",
             "Bis die Oberschenkel parallel sind absenken, Knie nach aussen, Brust oben, Fersen am Boden"]),
+ dict(id="bent_over_dumbbell_row", src=RAW % "bent_over_dumbbell_row", t0=0.0, t1=4.5, poster=2.0, view="side_45",
+      de="Vorgebeugtes Kurzhantelrudern", en="Bent-over dumbbell row", muscles=["oberer Rücken", "Latissimus", "Bizeps"],
+      cues=["Hüfte nach hinten, Oberkörper weit vorgebeugt, Rücken gerade",
+            "Hanteln zu den unteren Rippen ziehen, Ellbogen eng am Körper nach hinten",
+            "Oben Schulterblätter zusammen, langsam ablassen, Oberkörper bleibt ruhig"]),
 ]
 
 VF = ("minterpolate=fps=48:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,fps=24,"
