@@ -20,7 +20,7 @@ def main():
     if not task:
         ap.error("Bitte eine Aufgabe angeben")
 
-    llm = ChatOpenAI(os.environ.get("LLM_MODEL", "qwen2.5vl:7b"),
+    llm = ChatOpenAI(os.environ.get("LLM_MODEL", "qwen3.8:27b"),
                      base_url=os.environ.get("LLM_BASE_URL", "http://127.0.0.1:11434/v1"),
                      api_key=os.environ.get("LLM_API_KEY", "ollama"),
                      temperature=0.2)
