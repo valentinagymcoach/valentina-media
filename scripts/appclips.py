@@ -107,6 +107,11 @@ EX = [
       cues=["Hüfte nach hinten, Oberkörper weit vorgebeugt, Rücken gerade",
             "Hanteln zu den unteren Rippen ziehen, Ellbogen eng am Körper nach hinten",
             "Oben Schulterblätter zusammen, langsam ablassen, Oberkörper bleibt ruhig"]),
+ dict(id="barbell_overhead_press", src=RAW % "barbell_overhead_press_pp", t0=0.0, t1=5.9, poster=0.2, view="front_45",
+      de="Schulterdrücken mit Langhantel (stehend)", en="Standing barbell overhead press", muscles=["Schultern", "Trizeps", "Rumpf"],
+      cues=["Stange auf Schlüsselbeinhöhe, Hände knapp ausserhalb der Schultern",
+            "Gesäß und Bauch anspannen, Stange in gerader Linie über den Kopf drücken, Kopf kurz zurücknehmen",
+            "Oben Arme ganz strecken, Stange über der Fussmitte, nicht ins Hohlkreuz lehnen"]),
 ]
 
 VF = ("minterpolate=fps=48:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,fps=24,"

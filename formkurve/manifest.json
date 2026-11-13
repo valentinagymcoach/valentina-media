@@ -467,6 +467,31 @@
    "fps": 24,
    "loop": true,
    "ai_generated": true
+  },
+  {
+   "id": "barbell_overhead_press",
+   "de": "Schulterdrücken mit Langhantel (stehend)",
+   "en": "Standing barbell overhead press",
+   "muscles": [
+    "Schultern",
+    "Trizeps",
+    "Rumpf"
+   ],
+   "cues": [
+    "Stange auf Schlüsselbeinhöhe, Hände knapp ausserhalb der Schultern",
+    "Gesäß und Bauch anspannen, Stange in gerader Linie über den Kopf drücken, Kopf kurz zurücknehmen",
+    "Oben Arme ganz strecken, Stange über der Fussmitte, nicht ins Hohlkreuz lehnen"
+   ],
+   "view": "front_45",
+   "video_mp4": "barbell_overhead_press.mp4",
+   "video_webm": "barbell_overhead_press.webm",
+   "poster": "barbell_overhead_press.jpg",
+   "duration_s": 5.67,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
   }
  ]
 }
