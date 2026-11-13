@@ -1,0 +1,3 @@
+Öffne http://127.0.0.1:8188. Warte, bis die Oberfläche geladen ist.
+Prüfe, ob oben rechts ein "Queue"- bzw. "Run"-Knopf sichtbar ist, und melde, welche Nodes im aktuellen Workflow zu sehen sind.
+Öffne danach http://127.0.0.1:3000 und melde, ob die Anmeldeseite erscheint. Gib keine Zugangsdaten ein.
