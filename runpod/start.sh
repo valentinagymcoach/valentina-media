@@ -18,3 +18,7 @@ up 3000 || DATA_DIR=$A/open-webui WEBUI_AUTH=True ENABLE_SIGNUP=True DEFAULT_USE
   ENABLE_IMAGE_GENERATION=True IMAGE_GENERATION_ENGINE=comfyui COMFYUI_BASE_URL=http://127.0.0.1:8188 \
   nohup $A/venvs/webui/bin/open-webui serve --host 0.0.0.0 --port 3000 > $A/logs/webui.log 2>&1 &
 echo "gestartet; Status: bash $A/status.sh"
+# Qwen mit den Valentina-Werkzeugen verknüpfen, sobald das Admin-Konto existiert (einmalig)
+grep -q qwen_linked $A/open-webui/.linked 2>/dev/null || (nohup bash -c "for i in \$(seq 720); do
+  python3 -c \"import sqlite3,sys;d=sqlite3.connect('$A/open-webui/webui.db');sys.exit(0 if d.execute(\\\"select 1 from user where role='admin'\\\").fetchone() else 1)\" 2>/dev/null \
+  && python3 $A/webui_link_tools.py >> $A/logs/webui_link.log 2>&1 && echo qwen_linked > $A/open-webui/.linked && break; sleep 10; done" >/dev/null 2>&1 &)
