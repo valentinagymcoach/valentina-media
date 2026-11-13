@@ -97,7 +97,13 @@ EX = [
       cues=["Rückenlage, Füsse hüftbreit und nah am Gesäß, ganze Sohle am Boden",
             "Über die Fersen drücken, Hüfte heben bis Knie, Hüfte und Schultern eine Linie bilden",
             "Oben Gesäß anspannen, Kinn leicht zur Brust, langsam absenken"]),
+ dict(id="dumbbell_sumo_squat", src=RAW % "dumbbell_sumo_squat", t0=0.0, t1=4.0, poster=1.6, view="front",
+      de="Sumo-Kniebeuge mit Kurzhantel", en="Dumbbell sumo squat", muscles=["Gesäß", "Adduktoren", "Quadrizeps"],
+      cues=["Breiter Stand, Zehen etwa 45 Grad nach aussen",
+            "Kurzhantel mit beiden Händen zwischen den Beinen halten",
+            "Bis die Oberschenkel parallel sind absenken, Knie nach aussen, Brust oben, Fersen am Boden"]),
 ]
+
 VF = ("minterpolate=fps=48:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,fps=24,"
       "scale=720:1248:flags=lanczos,unsharp=5:5:0.4:5:5:0.0,setsar=1")
 

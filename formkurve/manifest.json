@@ -417,6 +417,31 @@
    "fps": 24,
    "loop": true,
    "ai_generated": true
+  },
+  {
+   "id": "dumbbell_sumo_squat",
+   "de": "Sumo-Kniebeuge mit Kurzhantel",
+   "en": "Dumbbell sumo squat",
+   "muscles": [
+    "Gesäß",
+    "Adduktoren",
+    "Quadrizeps"
+   ],
+   "cues": [
+    "Breiter Stand, Zehen etwa 45 Grad nach aussen",
+    "Kurzhantel mit beiden Händen zwischen den Beinen halten",
+    "Bis die Oberschenkel parallel sind absenken, Knie nach aussen, Brust oben, Fersen am Boden"
+   ],
+   "view": "front",
+   "video_mp4": "dumbbell_sumo_squat.mp4",
+   "video_webm": "dumbbell_sumo_squat.webm",
+   "poster": "dumbbell_sumo_squat.jpg",
+   "duration_s": 3.75,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
   }
  ]
 }
