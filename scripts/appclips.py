@@ -7,6 +7,7 @@ os.makedirs(OUT, exist_ok=True)
 NEW = "/home/claude/gen3_in/clips/v3_%s.mp4"
 NEW4 = "/home/claude/gen4_in/clips/v3_%s.mp4"
 ONLY = set(sys.argv[2].split(",")) if len(sys.argv) > 2 else None
+RAW = "/home/claude/valentina-media/raw_clips/%s.mp4"
 OLD = "/home/claude/gym_in/valentina_gym_clips/v_%s_00001_.mp4"
 X = 0.3  # loop crossfade
 
@@ -91,6 +92,11 @@ EX = [
       cues=["Ganzer Fuss auf der Bank",
             "Über die Ferse hochdrücken, nicht mit dem hinteren Bein abstossen",
             "Oben aufrecht stehen, dann kontrolliert absteigen"]),
+ dict(id="glute_bridge", src=RAW % "glute_bridge", t0=0.0, t1=5.0, poster=2.0, view="side_45",
+      de="Glute Bridge", en="Glute bridge", muscles=["Gesäß", "Beinbeuger", "Rumpf"],
+      cues=["Rückenlage, Füsse hüftbreit und nah am Gesäß, ganze Sohle am Boden",
+            "Über die Fersen drücken, Hüfte heben bis Knie, Hüfte und Schultern eine Linie bilden",
+            "Oben Gesäß anspannen, Kinn leicht zur Brust, langsam absenken"]),
 ]
 VF = ("minterpolate=fps=48:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,fps=24,"
       "scale=720:1248:flags=lanczos,unsharp=5:5:0.4:5:5:0.0,setsar=1")

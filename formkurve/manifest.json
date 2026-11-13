@@ -392,6 +392,31 @@
    "fps": 24,
    "loop": true,
    "ai_generated": true
+  },
+  {
+   "id": "glute_bridge",
+   "de": "Glute Bridge",
+   "en": "Glute bridge",
+   "muscles": [
+    "Gesäß",
+    "Beinbeuger",
+    "Rumpf"
+   ],
+   "cues": [
+    "Rückenlage, Füsse hüftbreit und nah am Gesäß, ganze Sohle am Boden",
+    "Über die Fersen drücken, Hüfte heben bis Knie, Hüfte und Schultern eine Linie bilden",
+    "Oben Gesäß anspannen, Kinn leicht zur Brust, langsam absenken"
+   ],
+   "view": "side_45",
+   "video_mp4": "glute_bridge.mp4",
+   "video_webm": "glute_bridge.webm",
+   "poster": "glute_bridge.jpg",
+   "duration_s": 4.75,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
   }
  ]
 }
