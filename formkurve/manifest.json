@@ -593,6 +593,30 @@
    "fps": 24,
    "loop": true,
    "ai_generated": true
+  },
+  {
+   "id": "cable_biceps_curl",
+   "de": "Bizepscurl am Kabelzug",
+   "en": "Cable biceps curl",
+   "muscles": [
+    "Bizeps",
+    "Unterarme"
+   ],
+   "cues": [
+    "Kabel am unteren Zug, Stange im Untergriff, Arme gestreckt",
+    "Ellbogen bleiben seitlich am Körper, Stange bis zur Brust beugen",
+    "Oben kurz anspannen, langsam ganz absenken, kein Schwung"
+   ],
+   "view": "front",
+   "video_mp4": "cable_biceps_curl.mp4",
+   "video_webm": "cable_biceps_curl.webm",
+   "poster": "cable_biceps_curl.jpg",
+   "duration_s": 4.75,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
   }
  ]
 }

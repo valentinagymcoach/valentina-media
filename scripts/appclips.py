@@ -132,6 +132,11 @@ EX = [
       cues=["Ellbogen direkt unter den Schultern, Unterarme flach auf der Matte",
             "Körper bildet eine gerade Linie von Kopf bis Ferse",
             "Bauch und Gesäß anspannen, Hüfte nicht durchhängen lassen, ruhig atmen"]),
+ dict(id="cable_biceps_curl", src=RAW % "cable_biceps_curl", t0=0.0, t1=5.0, poster=0.2, view="front",
+      de="Bizepscurl am Kabelzug", en="Cable biceps curl", muscles=["Bizeps", "Unterarme"],
+      cues=["Kabel am unteren Zug, Stange im Untergriff, Arme gestreckt",
+            "Ellbogen bleiben seitlich am Körper, Stange bis zur Brust beugen",
+            "Oben kurz anspannen, langsam ganz absenken, kein Schwung"]),
 ]
 
 VF = ("minterpolate=fps=48:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,fps=24,"
