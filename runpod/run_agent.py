@@ -1,5 +1,5 @@
 """Browser-Use-Agent: ein VLM (lokal über Ollama oder per OpenAI-kompatibler API) steuert einen
-Chromium-Browser im Container. Standardmässig darf er nur die eigenen Dienste im Docker-Netz öffnen.
+Chromium-Browser im Pod. Öffentliche Seiten ja; Instagram/Facebook/Threads gesperrt; keine Logins.
 
 Aufruf:
   /workspace/ai/agent.sh "Öffne http://127.0.0.1:8188 und lade den Standard-Workflow"
@@ -25,9 +25,11 @@ def main():
                      api_key=os.environ.get("LLM_API_KEY", "ollama"),
                      temperature=0.2)
     allowed = [d.strip() for d in os.environ.get("ALLOWED_DOMAINS", "").split(",") if d.strip()] or None
-    browser = Browser("chromium", headless=not a.headful,
-                      allowed_domains=allowed)      # Agent bleibt auf diesen Hosts (lokaler Browser, keine CAPTCHA-Umgehung)
-    agent = Agent(task=task, llm=llm, browser=browser, workspace=os.environ.get("AGENT_OUT", "/workspace/ai/agent_out"))
+    blocked = [d.strip() for d in os.environ.get("BLOCKED_DOMAINS", "").split(",") if d.strip()] or None
+    browser = Browser("chromium", headless=not a.headful, allowed_domains=allowed, prohibited_domains=blocked)
+    rules = ("Regeln: Nur lesen und recherchieren. Melde dich nirgends an, erstelle keine Konten, gib keine Passwörter ein, "
+             "löse keine CAPTCHAs, sende keine Formulare ab und kaufe nichts. Wenn das nötig wäre, brich ab und sag es.\n\nAufgabe: ")
+    agent = Agent(task=rules + task, llm=llm, browser=browser, workspace=os.environ.get("AGENT_OUT", "/workspace/ai/agent_out"))
     result = asyncio.run(agent.run(max_steps=a.max_steps))
     print("\n=== Ergebnis ===\n", getattr(result, "final_result", lambda: result)())
 
