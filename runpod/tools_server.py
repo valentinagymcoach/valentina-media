@@ -172,7 +172,7 @@ class PhotoReq(BaseModel):
 class VideoReq(BaseModel):
     image_url: str = Field(..., description="URL eines zuvor erzeugten Bildes (aus create_photos)")
     motion: str = Field(..., description="Bewegung auf Englisch, z. B. 'She performs slow goblet squats with perfect form. Static camera.'")
-    seconds: Literal[5, 10] = Field(5, description="5 s (ca. 12 min Rechenzeit) oder 10 s (ca. 25 min)")
+    seconds: Literal[5, 10] = Field(5, description="5 s (ca. 5-8 min Rechenzeit) oder 10 s (ca. 12-16 min)")
 
 
 class SpeakReq(BaseModel):
@@ -198,8 +198,21 @@ def create_photos(r: PhotoReq):
     return {"images": urls, "hint": "Mit create_video ein Bild als Startbild animieren."}
 
 
+def _free_llm_vram(delay=20):
+    """Qwen kurz nach seiner Antwort aus dem VRAM nehmen, damit Wan 14B die ganze GPU hat (wird bei der nächsten Nachricht neu geladen)."""
+    time.sleep(delay)
+    try:
+        for m in json.loads(urllib.request.urlopen("http://127.0.0.1:11434/api/ps", timeout=10).read()).get("models", []):
+            body = json.dumps({"model": m["name"], "keep_alive": 0}).encode()
+            urllib.request.urlopen(urllib.request.Request("http://127.0.0.1:11434/api/generate", data=body,
+                                   headers={"Content-Type": "application/json"}), timeout=30).read()
+    except Exception:  # noqa: BLE001
+        pass
+
+
 def _video_job(jid, r: VideoReq):
     try:
+        _free_llm_vram()
         q = urllib.parse.parse_qs(urllib.parse.urlparse(r.image_url).query)
         image = f"{q.get('subfolder', [''])[0]}/{q['filename'][0]}".lstrip("/") + " [output]"
         pid = _queue(wf_video(image, "Realistic video, static camera on a tripod, natural motion, real physics. " + r.motion,
@@ -213,7 +226,7 @@ def _video_job(jid, r: VideoReq):
 
 @app.post("/create_video", summary="Video aus einem Bild erzeugen (Hintergrundauftrag)",
           description="Animiert ein Bild mit Wan 2.2 (14B). Läuft im Hintergrund: gibt sofort eine job_id zurück. "
-                      "Status später mit get_job abfragen. 5 s dauern ca. 12 Minuten, 10 s ca. 25 Minuten.")
+                      "Status später mit get_job abfragen. 5 s dauern ca. 5-8 Minuten, 10 s ca. 12-16 Minuten.")
 def create_video(r: VideoReq):
     jid = uuid.uuid4().hex[:8]
     JOBS[jid] = {"status": "wartet", "type": "video", "created": time.strftime("%H:%M:%S")}

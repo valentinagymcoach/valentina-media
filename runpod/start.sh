@@ -3,7 +3,7 @@
 A=/workspace/ai
 C=/workspace/runpod-slim/ComfyUI
 LLM=${LLM:-qwen3.8:27b}
-export OLLAMA_MODELS=$A/ollama OLLAMA_HOST=127.0.0.1:11434 OLLAMA_KEEP_ALIVE=30m OLLAMA_MAX_LOADED_MODELS=1 \
+export OLLAMA_MODELS=$A/ollama OLLAMA_HOST=127.0.0.1:11434 OLLAMA_KEEP_ALIVE=10m OLLAMA_MAX_LOADED_MODELS=1 \
        OLLAMA_FLASH_ATTENTION=1 OLLAMA_KV_CACHE_TYPE=q8_0 OLLAMA_CONTEXT_LENGTH=32768
 up() { lsof -iTCP:"$1" -sTCP:LISTEN >/dev/null 2>&1; }
 up 11434 || nohup ollama serve > $A/logs/ollama.log 2>&1 &
