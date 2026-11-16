@@ -221,6 +221,11 @@ def cmd_videos(picks_path):
             k = j["audio"]; s = j.get("take") or tts.get(k, {}).get("best", 7)
             aud = f"vo_{k}_s{s}.wav"
             img = f"{j['photo']}.png"; shutil.copy(src, f"{C}/input/{img}")
+            if j.get("crop"):  # [x, y, w] -> Ausschnitt im Seitenverhältnis 480:832 (näher ans Gesicht)
+                from PIL import Image
+                x, y, w = j["crop"]; im = Image.open(src).convert("RGB")
+                img = f"{j['photo']}_c.png"
+                im.crop((x, y, x + w, y + round(w * 832 / 480))).resize((480, 832), Image.LANCZOS).save(f"{C}/input/{img}")
             p = subprocess.run([sys.executable, f"{A}/it_run.py", "run", img, aud, j["prompt"], name, str(j.get("seed", 7))],
                                capture_output=True, text=True)
             outs = [l.split()[1:3] for l in p.stdout.splitlines() if l.startswith("OUT")]
