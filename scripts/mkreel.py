@@ -2,6 +2,7 @@
 import json, subprocess, sys, os
 spec = json.load(open(sys.argv[1]))
 FK = "/home/claude/valentina-media/formkurve/"
+RAWD = "/home/claude/valentina-media/raw_clips/"
 FONT = "/usr/share/fonts/opentype/inter/Inter-ExtraBold.otf"
 if not os.path.exists(FONT):
     FONT = "/usr/share/fonts/opentype/inter/InterDisplay-Medium.otf"
@@ -25,7 +26,7 @@ for i, s in enumerate(spec["scenes"]):
         vf.append(f"drawtext=fontfile={FONT}:text='{esc(ln)}':fontsize={s.get('fs', 74)}:fontcolor=white:borderw=5:bordercolor=black@0.85:x=(w-text_w)/2:y={y}:alpha='min(1,t/0.2)'")
     vf.append(f"drawtext=fontfile={FONT}:text='AI-generated':fontsize=30:fontcolor=white@0.75:borderw=2:bordercolor=black@0.6:x=w-text_w-36:y=h-90")
     out = f"{tmp}/s{i}.mp4"
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-stream_loop", "-1", "-i", FK + s["clip"] + ".mp4", "-t", f"{d:.3f}",
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-stream_loop", "-1", "-i", (RAWD + s["raw"] if "raw" in s else FK + s["clip"] + ".mp4"), "-t", f"{d:.3f}",
                     "-vf", ",".join(vf), "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p", out], check=True)
     parts.append(out)
 open(f"{tmp}/list.txt", "w").write("".join(f"file '{p}'\n" for p in parts))

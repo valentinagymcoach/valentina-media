@@ -1,0 +1,8 @@
+{"tmp":"/home/claude/work/w6/t_upper","vo":"/home/claude/valentina-media/raw_clips/w6/vo_upper_s7.wav","out":"/home/claude/work/w6/reel_upper.mp4","music":"/home/claude/work/w6/music.wav",
+ "scenes":[
+  {"raw":"../../work/w6/pre/incline_db_press.mp4","f":1.3,"text":"UPPER BODY DAY","fs":88},
+  {"raw":"../../work/w6/pre/incline_db_press.mp4","f":2.2,"zoom":1.3,"focus":[0.45,0.4],"text":"INCLINE PRESS\nSHOULDER BLADES BACK","fs":70},
+  {"raw":"../../work/w6/pre/incline_db_press.mp4","f":1.8,"speed":0.6,"text":"SLOW TO UPPER CHEST\nTHEN PRESS","fs":70},
+  {"raw":"../../work/w6/pre/face_pull.mp4","f":2.2,"text":"FACE PULLS\nROPE TO YOUR FACE","fs":72},
+  {"raw":"../../work/w6/pre/face_pull.mp4","f":1.8,"zoom":1.3,"focus":[0.55,0.18],"text":"ELBOWS HIGH\nSQUEEZE REAR DELTS","fs":70},
+  {"raw":"../../work/w6/pre/face_pull.mp4","f":1.2,"speed":0.7,"text":"POSTURE + POWER.\nDEAL?","fs":78}]}

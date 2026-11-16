@@ -1,0 +1,8 @@
+{"tmp":"/home/claude/work/w6/t_legs","vo":"/home/claude/valentina-media/raw_clips/w6/vo_legs_s7.wav","out":"/home/claude/work/w6/reel_legs.mp4","music":"/home/claude/work/w6/music.wav",
+ "scenes":[
+  {"raw":"../../work/w6/pre/front_squat.mp4","f":1.6,"text":"LEG DAY.\nTWO LIFTS.","fs":88},
+  {"raw":"../../work/w6/pre/front_squat.mp4","f":2.4,"zoom":1.15,"focus":[0.5,0.5],"text":"FRONT SQUAT\nELBOWS HIGH, CHEST UP","fs":70},
+  {"raw":"../../work/w6/pre/front_squat.mp4","f":2.0,"speed":0.6,"text":"SIT BETWEEN\nYOUR HEELS","fs":78},
+  {"raw":"../../work/w6/pre/deadlift.mp4","f":2.4,"text":"DEADLIFT\nBAR OVER MID-FOOT","fs":74},
+  {"raw":"../../work/w6/pre/deadlift.mp4","f":2.2,"speed":0.6,"zoom":1.25,"focus":[0.5,0.55],"text":"FLAT BACK\nPUSH THE FLOOR AWAY","fs":70},
+  {"raw":"../../work/w6/pre/front_squat.mp4","f":1.4,"text":"HEAVY, BUT CLEAN.\nVAMOS!","fs":78}]}
