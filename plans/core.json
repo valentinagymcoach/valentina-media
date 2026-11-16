@@ -1,0 +1,7 @@
+{"tmp":"/home/claude/work/reels4/t_core","vo":"VO","out":"/home/claude/work/reels4/reel_core.mp4","music":"/home/claude/work/reels4/music.wav",
+ "scenes":[
+  {"clip":"hanging_leg_raise","f":1.8,"text":"ABS ARE MADE\nIN THE GYM","fs":84},
+  {"clip":"forearm_plank","f":2.6,"zoom":1.25,"focus":[0.5,0.55],"text":"PLANK\nELBOWS UNDER SHOULDERS","fs":70},
+  {"clip":"forearm_plank","f":1.6,"text":"ONE STRAIGHT LINE\nSQUEEZE EVERYTHING","fs":70},
+  {"clip":"hanging_leg_raise","f":2.4,"speed":0.75,"text":"LEG RAISES\nLEGS STRAIGHT, NO SWING","fs":66},
+  {"clip":"hanging_leg_raise","f":1.6,"zoom":1.3,"focus":[0.5,0.5],"text":"30 SEC + 10 REPS\nVAMOS!","fs":80}]}

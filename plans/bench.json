@@ -1,0 +1,7 @@
+{"tmp":"/home/claude/work/reels4/t_bench","vo":"VO","out":"/home/claude/work/reels4/reel_bench.mp4","music":"/home/claude/work/reels4/music.wav",
+ "scenes":[
+  {"clip":"barbell_bench_press","f":1.4,"text":"BENCH DAY.\nVAMOS!","fs":90},
+  {"clip":"barbell_bench_press","f":2.2,"zoom":1.35,"focus":[0.5,0.5],"text":"SHOULDER BLADES TOGETHER\nFEET PLANTED","fs":64},
+  {"clip":"barbell_bench_press","f":2.6,"speed":0.6,"text":"BAR TO LOWER CHEST\nELBOWS ~45°","fs":70},
+  {"clip":"barbell_bench_press","f":1.8,"zoom":1.5,"focus":[0.5,0.35],"text":"TOUCH, THEN PRESS\nNO BOUNCING","fs":70},
+  {"clip":"dumbbell_bench_press","f":1.8,"text":"FORM BEFORE WEIGHT.\nALWAYS.","fs":74}]}
