@@ -161,8 +161,8 @@
     "Rumpf"
    ],
    "cues": [
-    "Füsse etwa schulterbreit, Knie folgen den Zehen",
-    "Ganzer Fuss bleibt am Boden",
+    "Füße etwa schulterbreit, Knie folgen den Zehen",
+    "Ganzer Fuß bleibt am Boden",
     "Rumpf fest, Brust bleibt oben"
    ],
    "view": "front",
@@ -209,9 +209,9 @@
     "Gesäß"
    ],
    "cues": [
-    "Grosser Schritt, Oberkörper bleibt aufrecht",
-    "Vorderes Knie über dem Fuss, nicht nach innen",
-    "Über die Ferse des vorderen Fusses hochdrücken"
+    "Großer Schritt, Oberkörper bleibt aufrecht",
+    "Vorderes Knie über dem Fuß, nicht nach innen",
+    "Über die Ferse des vorderen Fußes hochdrücken"
    ],
    "view": "front",
    "video_mp4": "dumbbell_lunge.mp4",
@@ -354,7 +354,7 @@
     "vordere Schulter"
    ],
    "cues": [
-    "Schulterblätter zusammen, Füsse fest am Boden",
+    "Schulterblätter zusammen, Füße fest am Boden",
     "Hanteln kontrolliert seitlich zur Brust senken, Ellbogen etwa 45 Grad",
     "Über der Brust nach oben drücken, ohne die Hanteln aneinanderzuschlagen"
    ],
@@ -378,8 +378,8 @@
     "Gesäß"
    ],
    "cues": [
-    "Ganzer Fuss auf der Bank",
-    "Über die Ferse hochdrücken, nicht mit dem hinteren Bein abstossen",
+    "Ganzer Fuß auf der Bank",
+    "Über die Ferse hochdrücken, nicht mit dem hinteren Bein abstoßen",
     "Oben aufrecht stehen, dann kontrolliert absteigen"
    ],
    "view": "side",
@@ -403,7 +403,7 @@
     "Rumpf"
    ],
    "cues": [
-    "Rückenlage, Füsse hüftbreit und nah am Gesäß, ganze Sohle am Boden",
+    "Rückenlage, Füße hüftbreit und nah am Gesäß, ganze Sohle am Boden",
     "Über die Fersen drücken, Hüfte heben bis Knie, Hüfte und Schultern eine Linie bilden",
     "Oben Gesäß anspannen, Kinn leicht zur Brust, langsam absenken"
    ],
@@ -428,9 +428,9 @@
     "Quadrizeps"
    ],
    "cues": [
-    "Breiter Stand, Zehen etwa 45 Grad nach aussen",
+    "Breiter Stand, Zehen etwa 45 Grad nach außen",
     "Kurzhantel mit beiden Händen zwischen den Beinen halten",
-    "Bis die Oberschenkel parallel sind absenken, Knie nach aussen, Brust oben, Fersen am Boden"
+    "Bis die Oberschenkel parallel sind absenken, Knie nach außen, Brust oben, Fersen am Boden"
    ],
    "view": "front",
    "video_mp4": "dumbbell_sumo_squat.mp4",
@@ -478,9 +478,9 @@
     "Rumpf"
    ],
    "cues": [
-    "Stange auf Schlüsselbeinhöhe, Hände knapp ausserhalb der Schultern",
+    "Stange auf Schlüsselbeinhöhe, Hände knapp außerhalb der Schultern",
     "Gesäß und Bauch anspannen, Stange in gerader Linie über den Kopf drücken, Kopf kurz zurücknehmen",
-    "Oben Arme ganz strecken, Stange über der Fussmitte, nicht ins Hohlkreuz lehnen"
+    "Oben Arme ganz strecken, Stange über der Fußmitte, nicht ins Hohlkreuz lehnen"
    ],
    "view": "front_45",
    "video_mp4": "barbell_overhead_press.mp4",
@@ -503,7 +503,7 @@
     "vordere Schulter"
    ],
    "cues": [
-    "Kopf, Schultern und Gesäß bleiben auf der Bank, Füsse fest am Boden",
+    "Kopf, Schultern und Gesäß bleiben auf der Bank, Füße fest am Boden",
     "Stange kontrolliert zur unteren Brust senken, Ellbogen etwa 45 Grad vom Körper",
     "Gerade nach oben drücken, bis die Arme gestreckt sind, Handgelenke gerade"
    ],
@@ -611,6 +611,108 @@
    "video_mp4": "cable_biceps_curl.mp4",
    "video_webm": "cable_biceps_curl.webm",
    "poster": "cable_biceps_curl.jpg",
+   "duration_s": 4.75,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  },
+  {
+   "id": "front_squat",
+   "de": "Frontkniebeuge (Langhantel)",
+   "en": "Barbell front squat",
+   "muscles": [
+    "Quadrizeps",
+    "Gesäß",
+    "Rumpf",
+    "oberer Rücken"
+   ],
+   "cues": [
+    "Stange vorne auf den Schultern, Fingerspitzen unter der Stange, Ellbogen hoch",
+    "Brust bleibt oben, gerade zwischen die Fersen absenken",
+    "Ganzer Fuß bleibt am Boden, über die Mitte des Fußes hochdrücken"
+   ],
+   "view": "side_45",
+   "video_mp4": "front_squat.mp4",
+   "video_webm": "front_squat.webm",
+   "poster": "front_squat.jpg",
+   "duration_s": 4.75,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  },
+  {
+   "id": "deadlift",
+   "de": "Kreuzheben (Langhantel)",
+   "en": "Conventional deadlift",
+   "muscles": [
+    "Gesäß",
+    "Beinbeuger",
+    "unterer Rücken",
+    "Quadrizeps"
+   ],
+   "cues": [
+    "Stange über der Fußmitte, nah an den Schienbeinen",
+    "Rücken gerade, Arme lang, Rumpf fest anspannen",
+    "Den Boden wegdrücken, Stange nah am Körper führen, oben aufrecht stehen"
+   ],
+   "view": "side",
+   "video_mp4": "deadlift.mp4",
+   "video_webm": "deadlift.webm",
+   "poster": "deadlift.jpg",
+   "duration_s": 4.75,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  },
+  {
+   "id": "incline_dumbbell_press",
+   "de": "Schrägbankdrücken (Kurzhanteln)",
+   "en": "Incline dumbbell press",
+   "muscles": [
+    "obere Brust",
+    "Schultern",
+    "Trizeps"
+   ],
+   "cues": [
+    "Bank auf etwa 30 Grad, Schulterblätter zurück und unten",
+    "Hanteln langsam bis auf Höhe der oberen Brust absenken",
+    "Nach oben drücken, ohne die Ellbogen ganz durchzustrecken"
+   ],
+   "view": "side_45",
+   "video_mp4": "incline_dumbbell_press.mp4",
+   "video_webm": "incline_dumbbell_press.webm",
+   "poster": "incline_dumbbell_press.jpg",
+   "duration_s": 4.75,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  },
+  {
+   "id": "face_pull",
+   "de": "Face Pull (Kabelzug)",
+   "en": "Cable face pull",
+   "muscles": [
+    "hintere Schulter",
+    "oberer Rücken",
+    "Rotatorenmanschette"
+   ],
+   "cues": [
+    "Seilgriff auf Gesichtshöhe, Arme gestreckt, aufrecht stehen",
+    "Seil Richtung Gesicht ziehen, Ellbogen hoch und weit außen",
+    "Hinten kurz die Schulterblätter zusammenziehen, langsam zurückführen"
+   ],
+   "view": "side",
+   "video_mp4": "face_pull.mp4",
+   "video_webm": "face_pull.webm",
+   "poster": "face_pull.jpg",
    "duration_s": 4.75,
    "width": 720,
    "height": 1248,

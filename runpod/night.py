@@ -154,8 +154,12 @@ def cmd_tts():
     rt = "Listen, discipline beats motivation. Show up today, even if it's just twenty minutes. Deal?"
     env = dict(os.environ); env.pop("VIRTUAL_ENV", None)
     lines = [l.strip().split("|", 1) for l in open("/workspace/vo_lines.txt") if "|" in l]
+    only = set(filter(None, os.environ.get("TTS_ONLY", "").split(",")))
+    seeds = [int(x) for x in os.environ.get("TTS_SEEDS", "7,21").split(",")]
     for k, txt in lines:
-        for s in (7, 21):
+        if only and k not in only: continue
+        for s in seeds:
+            if os.path.exists(f"{vd}/vo_{k}_s{s}.wav"): continue
             d = f"/workspace/fish-speech/out_{k}_{s}"; shutil.rmtree(d, ignore_errors=True); os.makedirs(d)
             subprocess.run(["uv", "run", "python", "fish_speech/models/text2semantic/inference.py", "--text", txt,
                             "--prompt-text", rt, "--prompt-audio", ref, "--checkpoint-path", "/workspace/drama3",
