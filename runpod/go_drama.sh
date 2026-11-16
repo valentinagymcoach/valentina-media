@@ -7,7 +7,7 @@ pip install -q uv huggingface_hub
 wget -q -O /tmp/e.mp3 $R/audio/voice_samples/c2_valentina_expressive_talk.mp3 && ffmpeg -v error -y -i /tmp/e.mp3 -ar 44100 -ac 1 $O/c2_valentina_expressive_talk.wav
 cd /workspace && git clone -q --depth 1 https://github.com/fishaudio/fish-speech.git
 (cd fish-speech && uv sync --python 3.12 --extra cu128 > /workspace/fish_install.log 2>&1) &
-huggingface-cli download fishaudio/drama-3 --local-dir /workspace/drama3 > /workspace/fish_dl.log 2>&1
+python3 -c "from huggingface_hub import snapshot_download as s; s(\"fishaudio/drama-3\", local_dir=\"/workspace/drama3\")" > /workspace/fish_dl.log 2>&1
 wait
-wget -q -O /workspace/drama.sh $R/runpod/drama.sh
-bash /workspace/drama.sh
+wget -q -O /workspace/drama_lines.sh $R/runpod/drama_lines.sh
+bash /workspace/drama_lines.sh
