@@ -1,0 +1,252 @@
+{
+ "jobs": [
+  {
+   "type": "lip",
+   "name": "lip_cafe",
+   "photo": "t_cafe_4",
+   "audio": "t_cafe",
+   "prompt": "A young woman sitting in a cafe talking naturally to the camera with lively facial expressions, natural head movements and small hand gestures, realistic, static camera",
+   "seed": 7,
+   "crop": [
+    91,
+    80,
+    560
+   ]
+  },
+  {
+   "type": "lip",
+   "name": "lip_run",
+   "photo": "t_run_3",
+   "audio": "t_run",
+   "prompt": "A young woman in a park after a run talking naturally to the camera, slightly out of breath, lively facial expressions, natural head movements and hand gestures, realistic, static camera",
+   "seed": 7,
+   "crop": [
+    91,
+    20,
+    560
+   ]
+  },
+  {
+   "type": "lip",
+   "name": "lip_ego",
+   "photo": "t_ego_4",
+   "audio": "t_ego",
+   "prompt": "A young woman in a gym talking confidently to the camera with a teasing smile, lively facial expressions, natural head movements and hand gestures, realistic, static camera",
+   "seed": 7,
+   "crop": [
+    91,
+    50,
+    560
+   ]
+  },
+  {
+   "type": "lip",
+   "name": "lip_morning",
+   "photo": "t_morning_1",
+   "audio": "t_morning",
+   "prompt": "A young woman on a balcony holding a coffee mug talking warmly to the camera, lively facial expressions, natural head movements, realistic, static camera",
+   "seed": 7,
+   "crop": [
+    48,
+    0,
+    640
+   ]
+  },
+  {
+   "type": "wan",
+   "name": "d_lake_a",
+   "photo": "d_lake_1",
+   "kind": "life",
+   "motion": "Static camera on a tripod. She jogs towards the camera along the lakeside promenade with a natural relaxed running stride, ponytail bouncing, arms swinging naturally, calm lake and mountains behind her.",
+   "seed": 101
+  },
+  {
+   "type": "wan",
+   "name": "d_coffee_a",
+   "photo": "d_coffee_1",
+   "kind": "life",
+   "motion": "Static camera. She slowly lifts the coffee mug, takes a sip, lowers it and smiles while looking out over the rooftops, a gentle breeze moves loose strands of hair.",
+   "seed": 101
+  },
+  {
+   "type": "wan",
+   "name": "d_sunset_a",
+   "photo": "d_sunset_1",
+   "kind": "life",
+   "motion": "Static camera on a tripod. Starting with both arms raised overhead and hands together, she slowly leans her upper body into a gentle side stretch to one side, holds it while breathing calmly, then returns to the center and stretches to the other side, feet stay planted on the mat, golden sunset light.",
+   "seed": 101
+  },
+  {
+   "type": "wan",
+   "name": "d_walk_a",
+   "photo": "d_walk_1",
+   "kind": "life",
+   "motion": "Static camera on a tripod. She walks towards the camera along the cobblestone street with a relaxed confident stride, holding the iced coffee, smiling, hair moving naturally.",
+   "seed": 101
+  },
+  {
+   "type": "wan",
+   "name": "hammer_curl_a",
+   "photo": "x_hammer_curl_3",
+   "kind": "gym",
+   "motion": "She performs slow controlled dumbbell hammer curls: palms face each other the whole time with a neutral grip and thumbs pointing up, her wrists never rotate, she curls both dumbbells up towards her shoulders keeping her elbows pinned at her sides, then lowers them until her arms are straight, upper arms stay still, smooth repetitions.",
+   "seed": 202
+  },
+  {
+   "type": "wan",
+   "name": "standing_calf_raise_a",
+   "photo": "x_standing_calf_raise_1",
+   "kind": "gym",
+   "motion": "She performs slow controlled standing calf raises: standing on the low step platform holding a dumbbell in each hand at her sides, both feet stay side by side, both legs stay straight, she rises high onto the balls of both feet, pauses at the top, then slowly lowers her heels back down, her feet never leave the step, no swinging, smooth repetitions.",
+   "seed": 202
+  },
+  {
+   "type": "wan",
+   "name": "overhead_triceps_extension_a",
+   "photo": "x_overhead_triceps_extension_1",
+   "kind": "gym",
+   "motion": "She performs slow controlled overhead triceps extensions: holding a dumbbell in each hand above her head, her upper arms stay vertical next to her ears and do not move, she bends only her elbows to lower both dumbbells behind her head, then extends her arms straight up again, torso upright, smooth repetitions.",
+   "seed": 202
+  },
+  {
+   "type": "wan",
+   "name": "reverse_fly_a",
+   "photo": "x_reverse_fly_1",
+   "kind": "gym",
+   "motion": "She performs slow controlled bent-over dumbbell reverse flyes: torso hinged forward with a flat back, slight bend in the elbows, she raises both dumbbells out to the sides up to shoulder height squeezing her shoulder blades together, then lowers them slowly, her torso stays still, smooth repetitions.",
+   "seed": 202
+  },
+  {
+   "type": "wan",
+   "name": "russian_twist_a",
+   "photo": "x_russian_twist_2",
+   "kind": "gym",
+   "motion": "She performs controlled russian twists: sitting with her torso leaning back at about 45 degrees with a straight back, knees bent and heels on the floor, holding a weight plate with both hands, she rotates her torso from side to side bringing the plate beside each hip, smooth repetitions.",
+   "seed": 202
+  },
+  {
+   "type": "wan",
+   "name": "hammer_curl_b",
+   "photo": "x_hammer_curl_2",
+   "kind": "gym",
+   "motion": "She performs slow controlled dumbbell hammer curls: palms face each other the whole time with a neutral grip and thumbs pointing up, her wrists never rotate, she curls both dumbbells up towards her shoulders keeping her elbows pinned at her sides, then lowers them until her arms are straight, upper arms stay still, smooth repetitions.",
+   "seed": 303
+  },
+  {
+   "type": "wan",
+   "name": "standing_calf_raise_b",
+   "photo": "x_standing_calf_raise_2",
+   "kind": "gym",
+   "motion": "She performs slow controlled standing calf raises: standing on the low step platform holding a dumbbell in each hand at her sides, both feet stay side by side, both legs stay straight, she rises high onto the balls of both feet, pauses at the top, then slowly lowers her heels back down, her feet never leave the step, no swinging, smooth repetitions.",
+   "seed": 303
+  },
+  {
+   "type": "wan",
+   "name": "overhead_triceps_extension_b",
+   "photo": "x_overhead_triceps_extension_3",
+   "kind": "gym",
+   "motion": "She performs slow controlled overhead triceps extensions: holding a dumbbell in each hand above her head, her upper arms stay vertical next to her ears and do not move, she bends only her elbows to lower both dumbbells behind her head, then extends her arms straight up again, torso upright, smooth repetitions.",
+   "seed": 303
+  },
+  {
+   "type": "wan",
+   "name": "reverse_fly_b",
+   "photo": "x_reverse_fly_0",
+   "kind": "gym",
+   "motion": "She performs slow controlled bent-over dumbbell reverse flyes: torso hinged forward with a flat back, slight bend in the elbows, she raises both dumbbells out to the sides up to shoulder height squeezing her shoulder blades together, then lowers them slowly, her torso stays still, smooth repetitions.",
+   "seed": 303
+  },
+  {
+   "type": "wan",
+   "name": "russian_twist_b",
+   "photo": "x_russian_twist_1",
+   "kind": "gym",
+   "motion": "She performs controlled russian twists: sitting with her torso leaning back at about 45 degrees with a straight back, knees bent and heels on the floor, holding a weight plate with both hands, she rotates her torso from side to side bringing the plate beside each hip, smooth repetitions.",
+   "seed": 303
+  },
+  {
+   "type": "lip",
+   "name": "lip_cafe_b",
+   "photo": "t_cafe_2",
+   "audio": "t_cafe",
+   "prompt": "A young woman sitting in a cafe talking naturally to the camera with lively facial expressions, natural head movements and small hand gestures, realistic, static camera",
+   "seed": 21,
+   "crop": [
+    91,
+    60,
+    560
+   ]
+  },
+  {
+   "type": "lip",
+   "name": "lip_run_b",
+   "photo": "t_run_2",
+   "audio": "t_run",
+   "prompt": "A young woman in a park after a run talking naturally to the camera, slightly out of breath, lively facial expressions, natural head movements and hand gestures, realistic, static camera",
+   "seed": 21,
+   "crop": [
+    91,
+    20,
+    560
+   ]
+  },
+  {
+   "type": "lip",
+   "name": "lip_ego_b",
+   "photo": "t_ego_2",
+   "audio": "t_ego",
+   "prompt": "A young woman in a gym talking confidently to the camera with a teasing smile, lively facial expressions, natural head movements and hand gestures, realistic, static camera",
+   "seed": 21,
+   "crop": [
+    91,
+    50,
+    560
+   ]
+  },
+  {
+   "type": "lip",
+   "name": "lip_morning_b",
+   "photo": "t_morning_4",
+   "audio": "t_morning",
+   "prompt": "A young woman on a balcony holding a coffee mug talking warmly to the camera, lively facial expressions, natural head movements, realistic, static camera",
+   "seed": 21,
+   "crop": [
+    48,
+    0,
+    640
+   ]
+  },
+  {
+   "type": "wan",
+   "name": "d_lake_b",
+   "photo": "d_lake_3",
+   "kind": "life",
+   "motion": "Static camera on a tripod. She jogs towards the camera along the lakeside promenade with a natural relaxed running stride, ponytail bouncing, arms swinging naturally, calm lake and mountains behind her.",
+   "seed": 404
+  },
+  {
+   "type": "wan",
+   "name": "d_coffee_b",
+   "photo": "d_coffee_0",
+   "kind": "life",
+   "motion": "Static camera. She slowly lifts the coffee mug, takes a sip, lowers it and smiles while looking out over the rooftops, a gentle breeze moves loose strands of hair.",
+   "seed": 404
+  },
+  {
+   "type": "wan",
+   "name": "d_sunset_b",
+   "photo": "d_sunset_3",
+   "kind": "life",
+   "motion": "Static camera on a tripod. Starting with both arms raised overhead and hands together, she slowly leans her upper body into a gentle side stretch to one side, holds it while breathing calmly, then returns to the center and stretches to the other side, feet stay planted on the mat, golden sunset light.",
+   "seed": 404
+  },
+  {
+   "type": "wan",
+   "name": "d_walk_b",
+   "photo": "d_walk_3",
+   "kind": "life",
+   "motion": "Static camera on a tripod. She walks towards the camera along the cobblestone street with a relaxed confident stride, holding the iced coffee, smiling, hair moving naturally.",
+   "seed": 404
+  }
+ ]
+}
