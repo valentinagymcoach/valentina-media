@@ -22,11 +22,11 @@ for i, s in enumerate(spec["scenes"]):
           f"fade=t=in:st=0:d=0.12"]
     lines = s["text"].split("\n")
     for j, ln in enumerate(lines):
-        y = 300 + j * 96
+        y = s.get("ty", 300) + j * 96
         vf.append(f"drawtext=fontfile={FONT}:text='{esc(ln)}':fontsize={s.get('fs', 74)}:fontcolor=white:borderw=5:bordercolor=black@0.85:x=(w-text_w)/2:y={y}:alpha='min(1,t/0.2)'")
     vf.append(f"drawtext=fontfile={FONT}:text='AI-generated':fontsize=30:fontcolor=white@0.75:borderw=2:bordercolor=black@0.6:x=w-text_w-36:y=h-90")
     out = f"{tmp}/s{i}.mp4"
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-stream_loop", "-1", "-i", (RAWD + s["raw"] if "raw" in s else FK + s["clip"] + ".mp4"), "-t", f"{d:.3f}",
+    subprocess.run(["ffmpeg", "-v", "error", "-y", *(["-ss", str(s["ss"])] if s.get("ss") else []), "-stream_loop", "-1", "-i", (RAWD + s["raw"] if "raw" in s else FK + s["clip"] + ".mp4"), "-t", f"{d:.3f}",
                     "-vf", ",".join(vf), "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p", out], check=True)
     parts.append(out)
 open(f"{tmp}/list.txt", "w").write("".join(f"file '{p}'\n" for p in parts))
