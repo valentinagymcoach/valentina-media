@@ -719,6 +719,53 @@
    "fps": 24,
    "loop": true,
    "ai_generated": true
+  },
+  {
+   "id": "overhead_triceps_extension",
+   "de": "Trizepsdrücken über Kopf (Kurzhanteln)",
+   "en": "Overhead dumbbell triceps extension",
+   "muscles": [
+    "Trizeps"
+   ],
+   "cues": [
+    "Aufrecht stehen, Rumpf fest, Hanteln über dem Kopf",
+    "Oberarme bleiben senkrecht neben den Ohren, nur die Ellbogen beugen",
+    "Hanteln hinter dem Kopf absenken und wieder ganz nach oben strecken"
+   ],
+   "view": "front_45",
+   "video_mp4": "overhead_triceps_extension.mp4",
+   "video_webm": "overhead_triceps_extension.webm",
+   "poster": "overhead_triceps_extension.jpg",
+   "duration_s": 3.0,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
+  },
+  {
+   "id": "reverse_fly",
+   "de": "Reverse Flys vorgebeugt (Kurzhanteln)",
+   "en": "Bent-over dumbbell reverse fly",
+   "muscles": [
+    "hintere Schulter",
+    "oberer Rücken"
+   ],
+   "cues": [
+    "Oberkörper mit geradem Rücken weit nach vorne neigen, Knie leicht gebeugt",
+    "Arme leicht gebeugt seitlich bis auf Schulterhöhe heben",
+    "Schulterblätter zusammenziehen, langsam absenken, Oberkörper bleibt ruhig"
+   ],
+   "view": "side_45",
+   "video_mp4": "reverse_fly.mp4",
+   "video_webm": "reverse_fly.webm",
+   "poster": "reverse_fly.jpg",
+   "duration_s": 3.25,
+   "width": 720,
+   "height": 1248,
+   "fps": 24,
+   "loop": true,
+   "ai_generated": true
   }
  ]
 }

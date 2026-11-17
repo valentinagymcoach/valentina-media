@@ -157,8 +157,17 @@ EX = [
       cues=["Seilgriff auf Gesichtshöhe, Arme gestreckt, aufrecht stehen",
             "Seil Richtung Gesicht ziehen, Ellbogen hoch und weit außen",
             "Hinten kurz die Schulterblätter zusammenziehen, langsam zurückführen"]),
+ dict(id="overhead_triceps_extension", src=RAW % "w7/overhead_triceps_extension", t0=0.0, t1=3.25, poster=1.5, view="front_45",
+      de="Trizepsdrücken über Kopf (Kurzhanteln)", en="Overhead dumbbell triceps extension", muscles=["Trizeps"],
+      cues=["Aufrecht stehen, Rumpf fest, Hanteln über dem Kopf",
+            "Oberarme bleiben senkrecht neben den Ohren, nur die Ellbogen beugen",
+            "Hanteln hinter dem Kopf absenken und wieder ganz nach oben strecken"]),
+ dict(id="reverse_fly", src=RAW % "w7/reverse_fly", t0=0.0, t1=3.5, poster=1.75, view="side_45",
+      de="Reverse Flys vorgebeugt (Kurzhanteln)", en="Bent-over dumbbell reverse fly", muscles=["hintere Schulter", "oberer Rücken"],
+      cues=["Oberkörper mit geradem Rücken weit nach vorne neigen, Knie leicht gebeugt",
+            "Arme leicht gebeugt seitlich bis auf Schulterhöhe heben",
+            "Schulterblätter zusammenziehen, langsam absenken, Oberkörper bleibt ruhig"]),
 ]
-
 VF = ("minterpolate=fps=48:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,fps=24,"
       "scale=720:1248:flags=lanczos,unsharp=5:5:0.4:5:5:0.0,setsar=1")
 
