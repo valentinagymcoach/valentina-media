@@ -10,4 +10,4 @@ else
   python generate.py --task animate-14B --ckpt_dir ./Wan2.2-Animate-14B/ --src_root_path $S --refert_num 1 --save_file $S/out.mp4 > $S/gen.log 2>&1
 fi
 O=$(ls -t $S/*.mp4 2>/dev/null | grep -v src_ | head -1)
-if [ -n "$O" ]; then cp "$O" /workspace/www/${id}_$mode.mp4; ffmpeg -v error -y -i "$O" -vf "select='not(mod(n,10))',scale=200:-1,tile=10x1" -frames:v 1 /workspace/www/${id}_$mode.jpg; echo "OK $id $mode"; else echo "FAIL $id $mode"; tail -5 $S/pre.log $S/gen.log; fi
+if [ -n "$O" ]; then cp "$O" /workspace/www/${id}_$mode.mp4; ffmpeg -v error -y -i "$O" -vf "select='not(mod(n,13))',scale=220:-1,tile=6x2" -frames:v 1 /workspace/www/${id}_$mode.jpg; echo "OK $id $mode"; else echo "FAIL $id $mode"; tail -5 $S/pre.log $S/gen.log; fi
