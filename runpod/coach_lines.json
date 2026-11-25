@@ -1,0 +1,380 @@
+[
+ {
+  "id": "start.b0",
+  "cat": "start",
+  "tone": "b",
+  "de": "Handy weg, Gewicht her. Zeig mir, dass du nicht nur zum Spiegeln hier bist.",
+  "en": "Phone down, weights up. Show me you are not just here for the mirror."
+ },
+ {
+  "id": "start.b1",
+  "cat": "start",
+  "tone": "b",
+  "de": "Na endlich. Ich dachte schon, du hast das Studio vergessen.",
+  "en": "Finally. I thought you had forgotten where the gym is."
+ },
+ {
+  "id": "start.b2",
+  "cat": "start",
+  "tone": "b",
+  "de": "Los jetzt. Aufwärmen, dann liefern.",
+  "en": "Let's go. Warm up, then deliver."
+ },
+ {
+  "id": "start.n0",
+  "cat": "start",
+  "tone": "n",
+  "de": "Schön, dass du da bist. Wir starten locker und steigern uns.",
+  "en": "Good to see you. We start easy and build up."
+ },
+ {
+  "id": "start.n1",
+  "cat": "start",
+  "tone": "n",
+  "de": "Auf geht’s – saubere Technik zuerst.",
+  "en": "Here we go – clean technique first."
+ },
+ {
+  "id": "set.b0",
+  "cat": "set",
+  "tone": "b",
+  "de": "Solide. Nicht feiern, weitermachen.",
+  "en": "Solid. Don't celebrate, keep going."
+ },
+ {
+  "id": "set.b1",
+  "cat": "set",
+  "tone": "b",
+  "de": "Passt. Der nächste Satz wird nicht leichter.",
+  "en": "Fine. The next set will not get easier."
+ },
+ {
+  "id": "set.b2",
+  "cat": "set",
+  "tone": "b",
+  "de": "Okay. Das war das Minimum – jetzt zeig mir mehr.",
+  "en": "Okay. That was the minimum – now show me more."
+ },
+ {
+  "id": "set.n0",
+  "cat": "set",
+  "tone": "n",
+  "de": "Sauberer Satz. Weiter so.",
+  "en": "Clean set. Keep it up."
+ },
+ {
+  "id": "set.n1",
+  "cat": "set",
+  "tone": "n",
+  "de": "Gut gemacht – kurz durchatmen.",
+  "en": "Well done – take a breath."
+ },
+ {
+  "id": "low.b0",
+  "cat": "low",
+  "tone": "b",
+  "de": "Das war unter Soll. Ausreden zähle ich nicht mit.",
+  "en": "That was below target. I don't count excuses."
+ },
+ {
+  "id": "low.b1",
+  "cat": "low",
+  "tone": "b",
+  "de": "Hm. Das Gewicht hat diese Runde gewonnen. Die nächste gehört dir.",
+  "en": "Hm. The weight won this round. The next one is yours."
+ },
+ {
+  "id": "low.b2",
+  "cat": "low",
+  "tone": "b",
+  "de": "Zu wenig. Technik sauber halten – aber da geht mehr.",
+  "en": "Not enough. Keep the form clean – but there is more in you."
+ },
+ {
+  "id": "low.n0",
+  "cat": "low",
+  "tone": "n",
+  "de": "Nicht ganz im Soll – kein Problem, der nächste Satz zählt.",
+  "en": "Not quite on target – no problem, the next set counts."
+ },
+ {
+  "id": "low.n1",
+  "cat": "low",
+  "tone": "n",
+  "de": "Das war schwer. Bleib dran, das kommt.",
+  "en": "That was tough. Stay with it, it will come."
+ },
+ {
+  "id": "high.b0",
+  "cat": "high",
+  "tone": "b",
+  "de": "Oh, da geht ja doch was. Warum nicht gleich so?",
+  "en": "Oh, so you can do it. Why not right away?"
+ },
+ {
+  "id": "high.b1",
+  "cat": "high",
+  "tone": "b",
+  "de": "Mehr als verlangt. Ich bin fast beeindruckt.",
+  "en": "More than I asked for. I am almost impressed."
+ },
+ {
+  "id": "high.b2",
+  "cat": "high",
+  "tone": "b",
+  "de": "Zu leicht für dich. Nächstes Mal lege ich drauf.",
+  "en": "Too easy for you. Next time I add weight."
+ },
+ {
+  "id": "high.n0",
+  "cat": "high",
+  "tone": "n",
+  "de": "Mehr geschafft als geplant – stark!",
+  "en": "More than planned – strong!"
+ },
+ {
+  "id": "high.n1",
+  "cat": "high",
+  "tone": "n",
+  "de": "Das lief leicht. Nächstes Mal steigern wir.",
+  "en": "That went easily. Next time we go up."
+ },
+ {
+  "id": "pr.b0",
+  "cat": "pr",
+  "tone": "b",
+  "de": "Rekord! Siehst du – das Jammern war völlig unnötig.",
+  "en": "Record! See – all that whining was unnecessary."
+ },
+ {
+  "id": "pr.b1",
+  "cat": "pr",
+  "tone": "b",
+  "de": "Neuer Bestwert. Ich gebe es ungern zu: das war stark.",
+  "en": "New personal best. I hate to admit it: that was strong."
+ },
+ {
+  "id": "pr.b2",
+  "cat": "pr",
+  "tone": "b",
+  "de": "Rekord. Genau dafür quäle ich dich.",
+  "en": "Record. This is exactly why I torture you."
+ },
+ {
+  "id": "pr.n0",
+  "cat": "pr",
+  "tone": "n",
+  "de": "Neuer Rekord – großartig!",
+  "en": "New record – fantastic!"
+ },
+ {
+  "id": "pr.n1",
+  "cat": "pr",
+  "tone": "n",
+  "de": "Bestwert! Das hast du dir verdient.",
+  "en": "Personal best! You earned that."
+ },
+ {
+  "id": "exdone.b0",
+  "cat": "exdone",
+  "tone": "b",
+  "de": "Abgehakt. Nächste Übung, keine Kaffeepause.",
+  "en": "Done. Next exercise, no coffee break."
+ },
+ {
+  "id": "exdone.b1",
+  "cat": "exdone",
+  "tone": "b",
+  "de": "Erledigt. Trinken, atmen, weiter.",
+  "en": "Finished. Drink, breathe, move on."
+ },
+ {
+  "id": "exdone.b2",
+  "cat": "exdone",
+  "tone": "b",
+  "de": "Die Übung hast du überlebt. Mal sehen, wie es mit der nächsten läuft.",
+  "en": "You survived that one. Let's see about the next."
+ },
+ {
+  "id": "exdone.n0",
+  "cat": "exdone",
+  "tone": "n",
+  "de": "Übung geschafft. Weiter zur nächsten.",
+  "en": "Exercise done. On to the next."
+ },
+ {
+  "id": "exdone.n1",
+  "cat": "exdone",
+  "tone": "n",
+  "de": "Stark. Kurz trinken, dann weiter.",
+  "en": "Strong. Quick drink, then on."
+ },
+ {
+  "id": "restover.b0",
+  "cat": "restover",
+  "tone": "b",
+  "de": "Pause vorbei. Das Gewicht hebt sich nicht von allein.",
+  "en": "Break is over. The weight won't lift itself."
+ },
+ {
+  "id": "restover.b1",
+  "cat": "restover",
+  "tone": "b",
+  "de": "Genug ausgeruht. An die Arbeit.",
+  "en": "Enough rest. Back to work."
+ },
+ {
+  "id": "restover.b2",
+  "cat": "restover",
+  "tone": "b",
+  "de": "Zeit ist um. Ich warte.",
+  "en": "Time is up. I am waiting."
+ },
+ {
+  "id": "restover.n0",
+  "cat": "restover",
+  "tone": "n",
+  "de": "Pause vorbei – bereit für den nächsten Satz?",
+  "en": "Break over – ready for the next set?"
+ },
+ {
+  "id": "restover.n1",
+  "cat": "restover",
+  "tone": "n",
+  "de": "Weiter geht’s.",
+  "en": "On we go."
+ },
+ {
+  "id": "finish.b0",
+  "cat": "finish",
+  "tone": "b",
+  "de": "Fertig. Heute hast du geliefert – morgen will ich das wieder sehen.",
+  "en": "Done. You delivered today – I want to see that again tomorrow."
+ },
+ {
+  "id": "finish.b1",
+  "cat": "finish",
+  "tone": "b",
+  "de": "Training im Kasten. Jetzt essen, du Maschine.",
+  "en": "Workout in the bag. Now eat, you machine."
+ },
+ {
+  "id": "finish.b2",
+  "cat": "finish",
+  "tone": "b",
+  "de": "Durchgezogen. Sag es keinem, aber ich bin stolz auf dich.",
+  "en": "You pulled through. Don't tell anyone, but I am proud of you."
+ },
+ {
+  "id": "finish.n0",
+  "cat": "finish",
+  "tone": "n",
+  "de": "Training geschafft – richtig gut!",
+  "en": "Workout done – really good!"
+ },
+ {
+  "id": "finish.n1",
+  "cat": "finish",
+  "tone": "n",
+  "de": "Stark durchgezogen. Erhol dich gut.",
+  "en": "Great effort. Recover well."
+ },
+ {
+  "id": "short.b0",
+  "cat": "short",
+  "tone": "b",
+  "de": "Schon Schluss? Na gut – besser kurz als gar nicht. Nächstes Mal ganz.",
+  "en": "Done already? Fine – short beats nothing. Next time the whole thing."
+ },
+ {
+  "id": "short.b1",
+  "cat": "short",
+  "tone": "b",
+  "de": "Das war die Kurzfassung. Ich merke mir das.",
+  "en": "That was the short version. I will remember that."
+ },
+ {
+  "id": "short.n0",
+  "cat": "short",
+  "tone": "n",
+  "de": "Heute etwas kürzer – auch das zählt.",
+  "en": "A bit shorter today – that counts too."
+ },
+ {
+  "id": "quit.b0",
+  "cat": "quit",
+  "tone": "b",
+  "de": "Abgebrochen. Ich tue so, als hätte ich nichts gesehen. Einmal.",
+  "en": "Cancelled. I will pretend I saw nothing. Once."
+ },
+ {
+  "id": "quit.b1",
+  "cat": "quit",
+  "tone": "b",
+  "de": "Okay, heute nicht. Morgen stehst du wieder hier.",
+  "en": "Okay, not today. Tomorrow you are back here."
+ },
+ {
+  "id": "quit.n0",
+  "cat": "quit",
+  "tone": "n",
+  "de": "Kein Problem. Morgen ist ein neuer Tag.",
+  "en": "No problem. Tomorrow is a new day."
+ },
+ {
+  "id": "food.b0",
+  "cat": "food",
+  "tone": "b",
+  "de": "Eingetragen. Ehrlich ist besser als perfekt.",
+  "en": "Logged. Honest beats perfect."
+ },
+ {
+  "id": "food.b1",
+  "cat": "food",
+  "tone": "b",
+  "de": "Notiert. Ich sehe alles – auch den Nachtisch.",
+  "en": "Noted. I see everything – dessert included."
+ },
+ {
+  "id": "food.b2",
+  "cat": "food",
+  "tone": "b",
+  "de": "Gut. Wer mitschreibt, trifft sein Ziel.",
+  "en": "Good. Those who track hit their target."
+ },
+ {
+  "id": "food.n0",
+  "cat": "food",
+  "tone": "n",
+  "de": "Eingetragen – danke!",
+  "en": "Logged – thank you!"
+ },
+ {
+  "id": "food.n1",
+  "cat": "food",
+  "tone": "n",
+  "de": "Super, dass du dranbleibst.",
+  "en": "Great that you keep at it."
+ },
+ {
+  "id": "prot.b0",
+  "cat": "prot",
+  "tone": "b",
+  "de": "Eiweiß-Ziel erreicht. Deine Muskeln sagen danke – ich ausnahmsweise auch.",
+  "en": "Protein target hit. Your muscles say thanks – and for once so do I."
+ },
+ {
+  "id": "prot.b1",
+  "cat": "prot",
+  "tone": "b",
+  "de": "Eiweiß sitzt. So baut man auf.",
+  "en": "Protein is on point. That is how you build."
+ },
+ {
+  "id": "prot.n0",
+  "cat": "prot",
+  "tone": "n",
+  "de": "Eiweiß-Ziel erreicht – stark!",
+  "en": "Protein target reached – strong!"
+ }
+]
